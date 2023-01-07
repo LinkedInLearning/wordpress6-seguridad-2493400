@@ -18,11 +18,12 @@ Las ramas están estructuradas para corresponder a los vídeos del curso. La con
 
 ## Instalación
 
-1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - [software]
-
-2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-3. [Instrucciones específicas del curso].
+1. Para utilizar estos archivos de ejercicios, debes tener descargado e instalado lo siguiente:
+   - WordPress.
+   - Servicio web Apache2.
+2. Se puede clonar este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree. Ficheros referenciales, no incluye toda la instalación de WordPress.
+3. Sustituirlos por los respectivos en la instalación de WordPress.
+4. Guardar los cambios en tu entorno web.
 
 ### Docente
 
