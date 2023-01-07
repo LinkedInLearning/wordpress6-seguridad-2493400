@@ -1,0 +1,32 @@
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+
+# Cabeceras HTTP de seguridad 
+
+<IfModule mod_headers.c>
+	Header set Referrer-Policy "no-referrer-when-downgrade"
+	Header always set Strict-Transport-Security "" env=HTTPS
+	Header set X-Frame-Options "sameorigin"
+	Header always set X-Content-Type-Options nosniff
+	Header always set Content-Security-Policy: "upgrade-insecure-requests"
+	Header always set Permissions-Policy: "geolocation=(self);midi=(none);notifications=(self);push=(self);sync-xhr=(self);microphone=(none);camera=(none);magnetometer=(none);gyroscope=(none);speaker=(none);vibrate=(none);fullscreen=(self);payment=(none);"
+</IfModule>
+
+
+

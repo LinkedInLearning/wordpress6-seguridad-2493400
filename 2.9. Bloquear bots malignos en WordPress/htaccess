@@ -1,0 +1,27 @@
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+### User-agents bloqueados
+# Reglas para bloquear bots conocidos
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} badcrawler [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} badbot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} badspider [NC]
+RewriteRule . - [R=403,L]
+</IfModule>
+
+# END WordPress
+
+
+
