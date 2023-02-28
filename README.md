@@ -33,6 +33,6 @@ Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.c
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/wordpress-6-seguridad/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQHQZCsonbKDJQ/learning-public-crop_144_256/0/1664534082228?e=1678183200&v=beta&t=-1gjvpj82PGv5CF6n7nrBeo--SO5OeI-yDtSRQ9a6Uo
+[lil-thumbnail-url]: [https://media.licdn.com/dms/image/C4E0DAQHQZCsonbKDJQ/learning-public-crop_144_256/0/1664534082228?e=1678183200&v=beta&t=-1gjvpj82PGv5CF6n7nrBeo--SO5OeI-yDtSRQ9a6Uo](https://media.licdn.com/dms/image/C4E0DAQHQZCsonbKDJQ/learning-public-crop_675_1200/0/1664534082229?e=1678186800&v=beta&t=FIZhFpVlUewgzzVLhJT8Z0WII83JCO-8D3Ut-CtVlik)
 
 [1]: # (End of ES-Instruction ###############################################################################################)
