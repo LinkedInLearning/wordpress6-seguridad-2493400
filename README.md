@@ -2,7 +2,7 @@
 
 Este es el repositorio del curso de LinkedIn Learning `[WordPress 6: Seguridad]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![image](https://user-images.githubusercontent.com/71371373/224257439-0caf6182-96b2-432b-a166-c0e6289bfe9b.png)
+![COURSENAME][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
@@ -32,7 +32,7 @@ Las ramas están estructuradas para corresponder a los vídeos del curso. La con
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/erica-aguado-exposito).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/wordpress-6-seguridad/
-[lil-thumbnail-url]:https://media.licdn.com/dms/image/C4E0DAQHQZCsonbKDJQ/learning-public-crop_675_1200/0/1664534082229?e=1678186800&v=beta&t=FIZhFpVlUewgzzVLhJT8Z0WII83JCO-8D3Ut-CtVlik
+[lil-course-url]: https://www.linkedin.com/learning/wordpress-6-seguridad
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4D0DAQHQvriVeNuwXQ/learning-public-crop_675_1200/0/1678433391968?e=2147483647&v=beta&t=aOkVXwgRcrKfaU-_NKFUXE-2QbjuTmkxf4rG-G-rTgY
 
 [1]: # (End of ES-Instruction ###############################################################################################)
